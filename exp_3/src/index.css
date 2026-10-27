@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+nav h1 {
+  color: #fff;
+  margin: 0;
+}
+:root {
+  --primary: #8b5cf6;
+  --primary-dark: #6d28d9;
+  --lavender: #ede9fe;
+  --background: #faf9ff;
+  --text: #1f1b2d;
+  --muted: #6b6478;
+  --border: #ddd6fe;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
